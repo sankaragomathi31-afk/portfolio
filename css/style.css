@@ -1238,3 +1238,27 @@ section,
   background: var(--surface);
 }
 .cstep .gallery { align-items: start; }
+
+/* ---------- Certificate photos, project thumbnails, footer logo ---------- */
+.cert-thumb {
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--bg);
+  margin-bottom: 20px;
+}
+.cert-thumb:empty { display: none; }
+.cert-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.project .thumb { position: relative; }
+.project .thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-logo { display: inline-flex; line-height: 0; }
+.footer-logo svg { width: 56px; height: 56px; display: block; overflow: visible; }
