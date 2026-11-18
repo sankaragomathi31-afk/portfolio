@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Sankara Gomathi — UI/UX Designer</title>
+  <meta name="description" content="Sankara Gomathi, Fresher UI/UX Designer from Tirunelveli. Healthcare and travel case studies, Figma, research and prototyping.">
+  <meta name="author" content="Sankara Gomathi">
+  <meta property="og:title" content="Sankara Gomathi — UI/UX Designer">
+  <meta property="og:description" content="Designing calm, useful digital experiences.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader" aria-hidden="true">
+    <svg class="pre-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <defs>
+        <clipPath id="preClip"><rect id="preClipRect" x="0" y="0" width="0" height="200"/></clipPath>
+      </defs>
+      <text x="100" y="122" text-anchor="middle" dx="-7" letter-spacing="14" font-size="100" font-family="'Great Vibes', 'Brush Script MT', cursive" fill="#c8f169" clip-path="url(#preClip)">SG</text>
+      <path id="preSwash" d="M50 150 Q100 164 150 150" pathLength="1" fill="none" stroke="#f2efe9" stroke-width="2.5" stroke-linecap="round"/>
+    </svg>
+    <div class="bar"><span id="barFill"></span></div>
+    <div class="pct" id="pct">0%</div>
+  </div>
+
+  <div id="progress"></div>
+  <div class="cursor-label" id="cursorLabel">View case study</div>
+
+  <!-- Navigation -->
+  <nav id="nav">
+    <div class="wrap">
+      <a href="#home" class="logo" aria-label="Sankara Gomathi, back to top">
+        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <text x="100" y="122" text-anchor="middle" dx="-7" letter-spacing="14" font-size="100" font-family="'Great Vibes', 'Brush Script MT', cursive" fill="#c8f169" stroke="#c8f169" stroke-width="2">SG</text>
+          <path d="M50 150 Q100 164 150 150" fill="none" stroke="#c8f169" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </a>
+      <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <ul class="links" id="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- 1. Home / Hero -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">UI/UX Designer · Fresher · Mobile &amp; Web</span>
+          <h1 id="heroTitle">Designing calm, <em>useful</em> digital experiences.</h1>
+          <p class="sub" id="heroSub">I'm Sankara Gomathi, a UI/UX designer from Tirunelveli, India. I research, wireframe and prototype in Figma, with a focus on accessibility and simple flows.</p>
+          <div class="cta">
+            <a href="#projects" class="btn primary magnetic">View projects →</a>
+            <a href="assets/Sankara_Gomathi_Resume.pdf" download class="btn ghost magnetic">Download resume</a>
+          </div>
+        </div>
+        <div class="hero-visual" id="profile">
+          <div class="blob" aria-hidden="true"></div>
+          <div class="photo">
+            <img src="assets/images/profile.jpg" alt="Sankara Gomathi" onerror="this.remove()">
+            <span class="photo-fallback">SG</span>
+          </div>
+          <span class="tag tag-light t1">UI/UX Designer</span>
+          <span class="tag tag-dark t2">Mobile &amp; Web</span>
+          <div class="spin-badge" aria-hidden="true">
+            <svg viewBox="0 0 120 120">
+              <defs>
+                <path id="badgePath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/>
+              </defs>
+              <text><textPath href="#badgePath">FIGMA · USER RESEARCH · PROTOTYPING ·</textPath></text>
+            </svg>
+            <span class="badge-core">→</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-hint">SCROLL</div>
+    </section>
+
+    <!-- 2. About -->
+    <section id="about" class="about">
+      <div class="wrap about-grid">
+        <div class="about-visual">
+          <div class="about-circle">
+            <img src="assets/images/profile.jpg" alt="Sankara Gomathi" onerror="this.remove()">
+            <div class="about-logo" aria-hidden="true">
+              <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <text x="100" y="122" text-anchor="middle" dx="-7" letter-spacing="14" font-size="100" font-family="'Great Vibes', 'Brush Script MT', cursive" fill="#0d0d0f" stroke="#0d0d0f" stroke-width="2">SG</text>
+                <path d="M50 150 Q100 164 150 150" fill="none" stroke="#0d0d0f" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <span class="skill-tag s1">UI/UX Design</span>
+          <span class="skill-tag s2 dark">Mobile App Design</span>
+          <span class="skill-tag s3">Web Design</span>
+          <span class="skill-tag s4">Design System</span>
+          <span class="skill-tag s5 dark">Prototyping</span>
+          <span class="skill-tag s6">Wireframing</span>
+        </div>
+
+        <div class="about-text">
+          <span class="about-eyebrow">About Me</span>
+          <h2>Who is <em>Sankara Gomathi?</em></h2>
+          <p class="lead reveal">I'm a UI/UX designer with hands-on experience in user research, wireframing, high-fidelity prototyping, and responsive web and mobile design. I work in Figma and enjoy building design systems and clear developer handoff.</p>
+          <p class="lead reveal">I'm also comfortable with HTML, CSS and JavaScript, which helps me design interfaces that are realistic to build.</p>
+
+          <div class="about-stats">
+            <div><b data-count="15">0</b><span>Hi-fi screens designed</span></div>
+            <div><b data-count="50">0</b><span>Reusable components</span></div>
+            <div><b data-count="20">0</b><span>Responsive mockups</span></div>
+          </div>
+
+          <div class="about-cta">
+            <a href="assets/Sankara_Gomathi_Resume.pdf" download class="cv-btn magnetic">
+              Download CV <span class="arrow">→</span>
+            </a>
+            <span class="signature">Sankara Gomathi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills & Tools -->
+    <section id="skills">
+      <div class="wrap">
+        <div class="head">
+          <span class="eyebrow">Skills &amp; tools</span>
+          <h2>What I work with.</h2>
+        </div>
+        <div class="skills">
+          <div class="card stagger">
+            <h3>Design tools</h3>
+            <div class="chips">
+              <span class="chip">Figma</span>
+              <span class="chip">Adobe Illustrator</span>
+              <span class="chip">Adobe Photoshop</span>
+              <span class="chip">Adobe Express</span>
+              <span class="chip">Canva</span>
+              <span class="chip">UI kits</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>UX research</h3>
+            <div class="chips">
+              <span class="chip">User interviews</span>
+              <span class="chip">Personas</span>
+              <span class="chip">Journey mapping</span>
+              <span class="chip">Usability testing</span>
+              <span class="chip">Competitive analysis</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>UI &amp; systems</h3>
+            <div class="chips">
+              <span class="chip">Wireframing</span>
+              <span class="chip">Prototyping</span>
+              <span class="chip">Design systems</span>
+              <span class="chip">Information architecture</span>
+              <span class="chip">WCAG accessibility</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>Front-end basics</h3>
+            <div class="chips">
+              <span class="chip">HTML5</span>
+              <span class="chip">CSS3 (Flexbox, Grid)</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">Responsive design</span>
+              <span class="chip">Cross-browser compatibility</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>Design expertise</h3>
+            <div class="chips">
+              <span class="chip">Mobile app design (iOS/Android)</span>
+              <span class="chip">Web design</span>
+              <span class="chip">Interaction design</span>
+              <span class="chip">Micro-interactions</span>
+              <span class="chip">Visual design principles</span>
+              <span class="chip">Color theory</span>
+              <span class="chip">Typography</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>Design methodology</h3>
+            <div class="chips">
+              <span class="chip">Design thinking</span>
+              <span class="chip">Human-centered design</span>
+              <span class="chip">Design sprint</span>
+              <span class="chip">Iterative design process</span>
+              <span class="chip">Agile design</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>Research &amp; analytics</h3>
+            <div class="chips">
+              <span class="chip">Heatmap analysis</span>
+              <span class="chip">A/B testing</span>
+              <span class="chip">User flow optimization</span>
+              <span class="chip">Mockups</span>
+              <span class="chip">Interactive design</span>
+            </div>
+          </div>
+          <div class="card stagger">
+            <h3>Collaboration &amp; handoff</h3>
+            <div class="chips">
+              <span class="chip">Design handoff</span>
+              <span class="chip">Design documentation</span>
+              <span class="chip">Stakeholder communication</span>
+              <span class="chip">Cross-functional collaboration</span>
+              <span class="chip">Design validation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Featured Projects -->
+    <section id="projects">
+      <div class="wrap">
+        <div class="head">
+          <span class="eyebrow">Featured projects</span>
+          <h2>Selected work.</h2>
+        </div>
+
+        <div class="projects">
+          <a class="project" href="#case-cura">
+            <div class="thumb">
+              <div class="zoom">
+                <!-- <img src="assets/projects/cura-thumb.jpg" alt="Cura Care app"> -->
+                Cura Care
+              </div>
+            </div>
+            <div class="info">
+              <h3>Cura Care</h3>
+              <p>Healthcare mobile app for patient care and provider management. iOS &amp; Android.</p>
+              <span class="go">Read case study →</span>
+            </div>
+          </a>
+          <a class="project" href="#case-travel">
+            <div class="thumb">
+              <div class="zoom">
+                <!-- <img src="assets/projects/travel-thumb.jpg" alt="Travel Planning website"> -->
+                Travel Planning
+              </div>
+            </div>
+            <div class="info">
+              <h3>Travel Planning</h3>
+              <p>Multi-feature travel website covering destinations, itineraries and booking.</p>
+              <span class="go">Read case study →</span>
+            </div>
+          </a>
+                    <a class="project" href="#case-aurolle">
+            <div class="thumb"><div class="zoom">Aurolle Hotel</div></div>
+            <div class="info">
+              <span class="soon-tag"><span class="soon-dot"></span>In progress</span>
+              <h3>Aurolle Hotel Website</h3>
+              <p>Hotel website project. The case study is being written as the work moves forward.</p>
+              <span class="go">View case study →</span>
+            </div>
+          </a>
+        </div><!-- 5. Case Study: Cura Care -->
+        <article class="case" id="case-cura" hidden>
+          <button class="case-back" type="button" data-back>← All projects</button>
+          <div class="case-hero">
+            <span class="eyebrow">Case study 01 · Healthcare</span>
+            <h3>Cura Care</h3>
+            <p class="lead">A mobile app that helps patients reach a doctor virtually, including late at night when a hospital visit is hard. Seven steps, from the first problem to the final handoff.</p>
+          </div>
+          <div class="case-meta">
+            <div><b>Role</b>UI/UX Designer</div>
+            <div><b>Platforms</b>iOS &amp; Android</div>
+            <div><b>Tools</b>Figma</div>
+            <div><b>Standard</b>WCAG Level AA</div>
+            <div><b>Type</b>Self-initiated project</div>
+            <div><b>Duration</b>3 weeks</div>
+          </div>
+          <div class="shot has-img"><img src="assets/projects/cura/hero.png" alt="Cura Care cover, UI/UX designer, mobile application, Figma, 3 weeks" loading="lazy"></div>
+
+          <div class="story-stats reveal">
+            <div><b>15+</b><span>High-fidelity screens</span></div>
+            <div><b>50+</b><span>Reusable components</span></div>
+            <div><b>20+</b><span>Interactive screens</span></div>
+            <div><b>AA</b><span>WCAG Level accessibility</span></div>
+            <div><b>2</b><span>Platforms: iOS &amp; Android</span></div>
+          </div>
+
+                    <div class="glance reveal">
+            <div><span>The problem</span><p>Patients cannot always reach a hospital quickly, especially for urgent night-time concerns.</p></div>
+            <div><span>My approach</span><p>Desk research from published sources and existing telehealth apps, then a mobile design for virtual consultations.</p></div>
+            <div><span>The result</span><p>15+ high-fidelity screens, 50+ reusable components, and WCAG Level AA accessibility, designed as a self-initiated project.</p></div>
+          </div>
+
+          <nav class="case-steps" aria-label="Case study steps">
+            <a href="#cura-problem">01 Problem</a>
+            <a href="#cura-research">02 Research</a>
+            <a href="#cura-define">03 Define</a>
+            <a href="#cura-wireframe">04 Wireframe</a>
+            <a href="#cura-ui">05 UI Design</a>
+            <a href="#cura-testing">06 Testing</a>
+            <a href="#cura-outcome">07 Final outcome</a>
+          </nav>
+
+          <section class="cstep" id="cura-problem">
+            <span class="cstep-label">Step 01 · Problem</span>
+            <h4>What was the issue?</h4>
+            <p>This started as my own project, from a problem I believed exists. Not everyone can get to a hospital when they need help. A fever at midnight, a worry about a child, or a patient who cannot travel all lead to the same question: who can I speak to right now? Cura Care is a mobile app that lets patients reach a doctor virtually, so an urgent concern does not have to wait until the clinic opens.</p>
+            <div class="shot has-img"><img src="assets/projects/cura/overview.png" alt="Cura Care project overview: problem, challenges, goal and solution" loading="lazy"></div>
+          </section>
+          <section class="cstep" id="cura-research">
+            <span class="cstep-label">Step 02 · Research</span>
+            <h4>What did you learn?</h4>
+            <p>I collected published sources on urgent-care access, and reviewed existing telehealth apps to see how they handle finding a doctor and starting a consultation. Since this is my own project, I gathered these sources myself. They are a starting point, and the design still needs to be checked with real users.</p>
+            <div class="shot has-img"><img src="assets/projects/cura/research.png" alt="User research insights slide for Cura Care" loading="lazy"></div>
+          </section>
+          <section class="cstep" id="cura-define">
+            <span class="cstep-label">Step 03 · Define</span>
+            <h4>Who are the users?</h4>
+            <p>I wrote personas for two groups: patients who need quick access to a doctor, and providers who manage those consultations. They are based on the research sources and my own assumptions, which I have marked as things to validate. I also mapped 5+ critical workflows, from asking for help to following up afterwards.</p>
+            <div class="shot has-img"><img src="assets/projects/cura/pain-points.png" alt="User pain points for healthcare access in Cura Care" loading="lazy"></div>
+          </section>
+          <section class="cstep" id="cura-wireframe">
+            <span class="cstep-label">Step 04 · Wireframe</span>
+            <h4>How did you plan the screens?</h4>
+            <p>Before any colour or detail, I wireframed the core journey: opening the app, finding the right care, and starting a virtual consultation. Getting this structure right first kept the path short for someone who is worried and needs help quickly.</p>
+            <div class="shot has-img"><img src="assets/projects/cura/solution.png" alt="Solution approach for Cura Care" loading="lazy"></div>
+          </section>
+          <section class="cstep" id="cura-ui">
+            <span class="cstep-label">Step 05 · UI Design</span>
+            <h4>How did you design them?</h4>
+            <p>I designed 15+ high-fidelity screens for iOS and Android, built to WCAG Level AA, so the app works for people with different needs, including someone who is unwell and using a small screen. A library of 50+ reusable components kept 20+ interactive screens consistent, and micro-interactions made key actions clear.</p>
+            <div class="gallery"><img src="assets/projects/cura/screen-splash.png" alt="Cura Care splash screen" loading="lazy"><img src="assets/projects/cura/screen-book.png" alt="Cura Care book doctors onboarding screen" loading="lazy"><img src="assets/projects/cura/screen-video.png" alt="Cura Care video consultation screen" loading="lazy"></div>
+            <div class="shot has-img"><img src="assets/projects/cura/screens-group.png" alt="Cura Care app screens on iOS: splash, onboarding and doctor list" loading="lazy"></div>
+          </section>
+          <section class="cstep" id="cura-testing">
+            <span class="cstep-label">Step 06 · Testing</span>
+            <h4>How did you improve the design?</h4>
+            <p>I reviewed the flows myself against WCAG guidelines and tightened the steps where the path felt long. Testing with real patients and providers is the next step, and I would expect the design to change after that.</p>
+          </section>
+          <section class="cstep" id="cura-outcome">
+            <span class="cstep-label">Step 07 · Final outcome</span>
+            <h4>What did you deliver?</h4>
+            <p>There was no client for this project. It is my own project, and I completed it end to end myself: high-fidelity screens for iOS and Android, a component library, interaction specifications and design documentation.</p>
+            <div class="shot has-img"><img src="assets/projects/cura/cover.png" alt="Cura Care final cover design" loading="lazy"></div>
+            <div class="learn-grid">
+              <div class="card"><h3>Design for worry, not just tasks</h3><p class="lead">A person with a fever at midnight needs calm, clear steps more than extra features.</p></div>
+              <div class="card"><h3>Accessibility from day one</h3><p class="lead">Designing to WCAG Level AA early was far easier than fixing it at the end.</p></div>
+              <div class="card"><h3>Keep the core path short</h3><p class="lead">When someone is unwell and in a hurry, the main action should always be close at hand.</p></div>
+            </div>
+          </section>
+        </article>
+
+        <!-- 6. Case Study: Travel Planning -->
+        <article class="case" id="case-travel" hidden>
+          <button class="case-back" type="button" data-back>← All projects</button>
+          <div class="case-hero">
+            <span class="eyebrow">Case study 02 · Travel</span>
+            <h3>Travel Planning</h3>
+            <p class="lead">A travel and tourism platform covering destination exploration, trip planning, itinerary management and booking.</p>
+          </div>
+          <div class="case-meta">
+            <div><b>Role</b>UI Designer</div>
+            <div><b>Platforms</b>Desktop, tablet &amp; mobile</div>
+            <div><b>Tools</b>Figma, CSS Flexbox &amp; Grid</div>
+          </div>
+
+          <div class="shot">Screenshot placeholder: Travel Planning homepage</div>
+
+          <h4 class="sub-title">Wireframes &amp; user flows</h4>
+          <p class="lead">Wireframed and mapped user flows for the multi-feature platform, then simplified the information architecture to reduce cognitive load.</p>
+
+          <h4 class="sub-title">Mockups &amp; prototype</h4>
+          <div class="gallery">
+            <div class="shot">Desktop mockup</div>
+            <div class="shot">Tablet mockup</div>
+            <div class="shot">Mobile mockup</div>
+          </div>
+
+          <h4 class="sub-title">Iteration &amp; learnings</h4>
+          <p class="lead">Ran 6+ iteration cycles using stakeholder feedback and user insights, improving visual hierarchy and content discoverability. Learned to design navigation around what users need next, not everything the product offers.</p>
+        </article>
+        <article class="case" id="case-aurolle" hidden>
+          <button class="case-back" type="button" data-back>← All projects</button>
+          <div class="case-hero">
+            <span class="eyebrow">Case study 03 · Hotel website</span>
+            <h3>Aurolle Hotel Website</h3>
+            <p class="lead">A hotel website project that is currently in progress. This page will be filled in step by step as the work moves forward.</p>
+          </div>
+          <div class="case-meta">
+            <div><b>Status</b>In progress</div>
+            <div><b>Role</b>To be added</div>
+            <div><b>Tools</b>To be added</div>
+          </div>
+          <nav class="case-steps" aria-label="Aurolle case study steps">
+            <a href="#aurolle-problem">01 Problem</a>
+            <a href="#aurolle-research">02 Research</a>
+            <a href="#aurolle-define">03 Define</a>
+            <a href="#aurolle-wireframe">04 Wireframe</a>
+            <a href="#aurolle-ui">05 UI Design</a>
+            <a href="#aurolle-testing">06 Testing</a>
+            <a href="#aurolle-outcome">07 Final outcome</a>
+          </nav>
+          <section class="cstep" id="aurolle-problem">
+            <span class="cstep-label">Step 01 · Problem</span>
+            <h4>What was the issue?</h4>
+            <p class="todo">Add the problem the hotel website needed to solve.</p>
+          </section>
+          <section class="cstep" id="aurolle-research">
+            <span class="cstep-label">Step 02 · Research</span>
+            <h4>What did you learn?</h4>
+            <p class="todo">Add what you learned from users, the client or competitor hotel sites.</p>
+          </section>
+          <section class="cstep" id="aurolle-define">
+            <span class="cstep-label">Step 03 · Define</span>
+            <h4>Who are the users?</h4>
+            <p class="todo">Add the users, personas and key workflows.</p>
+          </section>
+          <section class="cstep" id="aurolle-wireframe">
+            <span class="cstep-label">Step 04 · Wireframe</span>
+            <h4>How did you plan the screens?</h4>
+            <p class="todo">Add how the pages and navigation were planned.</p>
+          </section>
+          <section class="cstep" id="aurolle-ui">
+            <span class="cstep-label">Step 05 · UI Design</span>
+            <h4>How did you design them?</h4>
+            <p class="todo">Add the final screens, design system and key decisions.</p>
+          </section>
+          <section class="cstep" id="aurolle-testing">
+            <span class="cstep-label">Step 06 · Testing</span>
+            <h4>How did you improve the design?</h4>
+            <p class="todo">Add testing results and what changed. Leave empty if testing is not done yet.</p>
+          </section>
+          <section class="cstep" id="aurolle-outcome">
+            <span class="cstep-label">Step 07 · Final outcome</span>
+            <h4>What did you deliver?</h4>
+            <p class="todo">Add what has been delivered so far. Update this as the project moves forward.</p>
+          </section>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 7. Design Process -->
+    <section id="process" class="process">
+      <div class="wrap">
+        <div class="head">
+          <span class="eyebrow">Design process</span>
+          <h2>How I work.</h2>
+        </div>
+        <div class="steps" id="steps">
+          <svg class="route" viewBox="0 0 1000 540" preserveAspectRatio="none" aria-hidden="true">
+            <path id="routePath" pathLength="1" d="M71.40 342.90 L214.30 280.26 L357.10 311.58 L500.00 228.42 L642.90 186.84 L785.70 135.00 L928.60 72.90"/>
+          </svg>
+          <span class="runner" id="runner" aria-hidden="true"></span>
+          <div class="step" style="--x:7.14%;--y:63.5%">
+            <span class="node">01</span>
+            <div class="label">
+              <h4>Discover</h4>
+              <p>Research and interviews</p>
+            </div>
+          </div>
+          <div class="step" style="--x:21.43%;--y:51.9%">
+            <span class="node">02</span>
+            <div class="label">
+              <h4>Define</h4>
+              <p>Personas and journeys</p>
+            </div>
+          </div>
+          <div class="step" style="--x:35.71%;--y:57.7%">
+            <span class="node">03</span>
+            <div class="label">
+              <h4>Ideate</h4>
+              <p>Flows and concepts</p>
+            </div>
+          </div>
+          <div class="step" style="--x:50.0%;--y:42.3%">
+            <span class="node">04</span>
+            <div class="label">
+              <h4>Wireframe</h4>
+              <p>Low-fidelity structure</p>
+            </div>
+          </div>
+          <div class="step" style="--x:64.29%;--y:34.6%">
+            <span class="node">05</span>
+            <div class="label">
+              <h4>Design</h4>
+              <p>High-fidelity UI</p>
+            </div>
+          </div>
+          <div class="step" style="--x:78.57%;--y:25.0%">
+            <span class="node">06</span>
+            <div class="label">
+              <h4>Prototype</h4>
+              <p>Interactive flows</p>
+            </div>
+          </div>
+          <div class="step" style="--x:92.86%;--y:13.5%">
+            <span class="node">07</span>
+            <div class="label">
+              <h4>Test</h4>
+              <p>Usability validation</p>
+            </div>
+          </div>
+        </div>
+        <p class="process-now"><span class="soon-dot"></span>Currently applying this process to the <b>Aurolle Hotel Website</b>, which is in progress.</p>
+      </div>
+    </section>
+
+    <!-- 8. Experience & Education -->
+    <section id="experience" class="experience">
+      <div class="wrap">
+        <div class="head">
+          <span class="eyebrow">Experience &amp; education</span>
+          <h2>Where I've worked and studied.</h2>
+        </div>
+        <div class="exp">
+          <div>
+            <div class="item reveal">
+              <small>September 2026 – Present</small>
+              <h4>UI/UX Design Intern</h4>
+              <p>Team Green Step Private Limited, Tirunelveli. Designed an end-to-end Ride With US cab booking website in Figma: research, user flows, final UI, responsive screens, design system and an interactive prototype.</p>
+            </div>
+            <div class="item reveal">
+              <small>Projects</small>
+              <h4>Cura Care &amp; Travel Planning</h4>
+              <p>See the case studies above.</p>
+            </div>
+          </div>
+          <div>
+            <div class="item reveal">
+              <small>2023 – 2026</small>
+              <h4>BSc Information Technology</h4>
+              <p>Sri Ram Nallamani Yadava College, Tenkasi (Manonmaniam Sundaranar University)</p>
+            </div>
+            <div class="item reveal">
+              <small>2022 – 2023</small>
+              <h4>Higher Secondary, Mathematics &amp; Computer Science</h4>
+              <p>St. Joseph's Girls Higher Secondary School, Tirunelveli (State Board)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="cert-head">
+          <span class="eyebrow">Certifications</span>
+          <h3>Courses that shaped my practice.</h3>
+        </div>
+      </div>
+
+      <div class="cert-marquee" id="certMarquee">
+        <div class="cert-track" id="certTrack">
+            <article class="cert">
+              <span class="cert-no">01</span>
+              <div>
+                <span class="cert-issuer">Coursera</span>
+                <h3>Google UX Design Professional Certificate</h3>
+              </div>
+            </article>
+            <article class="cert">
+              <span class="cert-no">02</span>
+              <div>
+                <span class="cert-issuer">Novitech R&amp;D Private Limited</span>
+                <h3>UI/UX Design Specialist</h3>
+              </div>
+            </article>
+            <article class="cert">
+              <span class="cert-no">03</span>
+              <div>
+                <span class="cert-issuer">FutureLearn / Digital Skills</span>
+                <h3>User Experience Design Fundamentals</h3>
+              </div>
+            </article>
+            <article class="cert">
+              <span class="cert-no">04</span>
+              <div>
+                <span class="cert-issuer">Certification</span>
+                <h3>Design Thinking &amp; Innovation</h3>
+              </div>
+            </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. Contact -->
+    <section id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <span class="eyebrow">Contact</span>
+          <h2 class="contact-title">Let's build something <em>thoughtful.</em></h2>
+          <p class="lead">sankaragomathi31@gmail.com · +91-8056700020</p>
+          <p class="lead"><a class="contact-link" href="https://linkedin.com/in/sankara-gomathi" target="_blank" rel="noopener">linkedin.com/in/sankara-gomathi</a></p>
+        </div>
+
+        <form id="contactForm" novalidate>
+          <div class="field">
+            <input id="name" name="name" type="text" autocomplete="name" required>
+            <label for="name">Your name</label>
+          </div>
+          <div class="field">
+            <input id="email" name="email" type="email" autocomplete="email" required>
+            <label for="email">Email address</label>
+          </div>
+          <div class="field">
+            <textarea id="message" name="message" required></textarea>
+            <label for="message">Message</label>
+          </div>
+          <button class="btn primary magnetic" type="submit" id="sendBtn">Send message →</button>
+          <p id="status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div>
+        <div class="logo">SG</div>
+        <p class="footer-copy">© 2026 Sankara Gomathi</p>
+      </div>
+      <div class="socials">
+        <a href="https://linkedin.com/in/sankara-gomathi" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:sankaragomathi31@gmail.com" aria-label="Email">@</a>
+      </div>
+      <button id="top" type="button">Back to top ↑</button>
+    </div>
+  </footer>
+
+  <!-- GSAP (CDN, pinned version) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Site scripts -->
+  <script src="js/main.js"></script>
+  <script src="js/animation.js"></script>
+</body>
+</html>
