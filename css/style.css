@@ -1262,3 +1262,19 @@ section,
 
 .footer-logo { display: inline-flex; line-height: 0; }
 .footer-logo svg { width: 56px; height: 56px; display: block; overflow: visible; }
+
+/* ---------- Image slots that show a note until the file is added ---------- */
+.shot.has-img.is-missing {
+  aspect-ratio: 16 / 9;
+  border: 1px dashed #3a3a44;
+  background: var(--surface);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+.shot.has-img.is-missing::after {
+  content: "Image not added yet";
+  color: var(--muted);
+  font-size: 14px;
+}
