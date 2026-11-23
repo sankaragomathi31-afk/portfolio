@@ -12,7 +12,7 @@
  * 5. Copy the Web app URL and paste it into APPS_SCRIPT_URL in index.html.
  */
 
-const SHEET_ID = "PASTE_YOUR_SHEET_ID_HERE";
+const SHEET_ID = "https://docs.google.com/spreadsheets/d/1HjYPE75snTN_x3B0k2Trv-9e8xIqq4rxUhpqd2-hi3M/edit?";
 const SHEET_NAME = "Messages";
 
 function doPost(e) {
