@@ -7,7 +7,7 @@
    Paste your Google Apps Script Web App URL here.
    See README.md > "Google Sheets contact form" for steps. */
 const CONFIG = {
-  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbxT_uSoLSPUoR0JxDHb-S7xN4MEnkuXqc4DGPv-k99uKOLw7H1M3SSIcRzIuVYOLeF7/exec",
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycby2g2KYdu7eH7XJeQ_giLxI-gAowAJ3239EkhCh5_sIPHKWj17JW36SIVk13bg-rve_/exec",
 };
 
 (function () {
